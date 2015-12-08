@@ -1,22 +1,178 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
+/* Default CSS configurations */
+
+a,
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    margin: 30px 0;
+    border-bottom: 1px solid #ebebeb;
+}
 
 
+/* Navigationsbar */
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top, #5e5e5e 0, #5e5e5e 100%);
+    border-color: #818386;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-text {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-image: -webkit-linear-gradient(top, #ecf0f1 0, #ecf0f1 100%);
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-link {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-link:hover {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+        color: #ecf0f1;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #ffffff;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #ffffff;
+        background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
+    }
+}
 
 
+/* Body */
 
+.container {
+    max-width: 940px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+.contentBox {
+    display: block;
+    max-width: 940px;
+    padding: 60px 15px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: white;
+}
 
+.footerBox {
+    display: block;
+    max-width: 940px;
+    padding: 60px 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
 
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'ITCAvantGardeStd-BkCn', Verdana, Sans-serif, Helvetica;
+    font-size: 14px;
+    line-height: 19px;
+    color: #58595b;
+    background: #ebebeb;
+    background-size: cover;
+}
 
+h1 {
+    font-size: 30px;
+    padding-bottom: 30px;
+}
 
+.slideImage {
+    width: 100%;
+}
 
+h2 {
+    background-color: #b80f1d;
+    color: white;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin: 0;
+}
 
+.headerImageBox {
+    width: 100%;
+}
 
+.headerLinkBox {
+    height: 40px;
+    padding: 5px 20px;
+    color: white;
+    background: #acacad;
+}
 
+.headerLinkBox:hover {
+    background: #58595B;
+}
 
+img {
+    width: inherit;
+}
