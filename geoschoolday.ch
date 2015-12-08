@@ -1,1 +1,1 @@
-http://geometalab.github.io/geoschoolday/
+geometalab.github.io
