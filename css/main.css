@@ -97,6 +97,30 @@ img {
 }
 
 
+/* Footer */
+
+.footerbox {
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+.logoLinkBox {
+    display: table-cell;
+    padding-right: 50px;
+    height: 60px;
+}
+
+.logoLink {
+    height: inherit;
+}
+
+.logoLinkBox img {
+    width: inherit;
+    height: 60px;
+}
+
+
 /* Navigationsbar */
 
 .navbar-brand {
