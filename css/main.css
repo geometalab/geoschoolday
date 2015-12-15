@@ -99,25 +99,29 @@ img {
 
 /* Footer */
 
-.footerbox {
+.footer {
     display: table;
     width: 100%;
-    text-align: center;
 }
 
 .logoLinkBox {
     display: table-cell;
-    padding-right: 50px;
-    height: 60px;
-}
-
-.logoLink {
-    height: inherit;
+    height: 40px;
 }
 
 .logoLinkBox img {
     width: inherit;
-    height: 60px;
+    height: 40px;
+}
+
+#hsr,
+#esri {
+    width: 20%;
+    text-align: left;
+}
+
+#sogi {
+    text-align: right;
 }
 
 
