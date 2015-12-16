@@ -43,6 +43,10 @@ hr {
     padding: 60px 15px 30px 15px;
 }
 
+#content.container #registrationform {
+    padding: 0;
+}
+
 .footerBox {
     display: block;
     max-width: 940px;
@@ -51,6 +55,24 @@ hr {
     margin-left: auto;
 }
 
+.registration {
+    padding: 30px 105px 0 105px;
+}
+
+.registration a {
+    color: blue;
+}
+
+.registrationbox {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #b80f1d;
+}
+
+.registrationbox:hover {
+    background-color: #9E0D19;
+}
 
 /* heading 1 */
 
@@ -67,9 +89,11 @@ h1 {
 /* heading 2 */
 
 h2 {
+    height: 25px;
+    line-height: 25px;
     background-color: #b80f1d;
     color: white;
-    padding: 5px 20px;
+    text-align: center;
     font-size: 14px;
     margin: 0;
 }
@@ -80,7 +104,8 @@ h2 {
 
 .headerLinkBox {
     height: 40px;
-    padding: 5px 20px;
+    line-height: 40px;
+    text-align: center;
     color: white;
     background: #acacad;
 }
