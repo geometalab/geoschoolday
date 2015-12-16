@@ -13,6 +13,7 @@ body {
     line-height: 19px;
     color: #58595b;
     background: #ebebeb;
+    background-image: url(Bern_BW100.png);
     background-size: cover;
 }
 
@@ -107,6 +108,7 @@ img {
 .logoLinkBox {
     display: table-cell;
     height: 40px;
+    background-color: white;
 }
 
 .logoLinkBox img {
@@ -114,14 +116,15 @@ img {
     height: 40px;
 }
 
+#powerby,
 #hsr,
 #esri {
-    width: 20%;
-    text-align: left;
+    width: 30%;
+    text-align: right;
 }
 
 #sogi {
-    text-align: right;
+    text-align: left;
 }
 
 
