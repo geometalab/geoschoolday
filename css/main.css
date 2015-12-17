@@ -105,20 +105,15 @@ hr {
 }
 
 .embed-container {
-    position: relative;
     padding-bottom: 44%;
     height: 0;
-    max-width: 100%;
 }
 
 .embed-container iframe,
 .embed-container object,
 .embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
-    height: 100%;
+    max-width: 940px;
+    height: 400px;
 }
 
 
@@ -182,6 +177,7 @@ hr {
     line-height: 40px;
     text-align: center;
     color: white;
+    font-size: 14px;
     background: #acacad;
 }
 
