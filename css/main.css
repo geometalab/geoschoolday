@@ -53,11 +53,6 @@ hr {
     border-bottom: 1px solid #ebebeb;
 }
 
-.smallhr {
-    margin: 15px 20%;
-    border-bottom: thin inset #ebebeb;
-}
-
 
 /* Body */
 
@@ -124,7 +119,9 @@ hr {
     height: 100%;
 }
 
+
 /* table */
+
 #programmtable {
     display: table;
     color: black;
@@ -149,13 +146,13 @@ hr {
 
 .column2 {
     width: 22%;
-    background-color: rgba(184,15,29,0.4);
+    background-color: rgba(184, 15, 29, 0.4);
     backg
 }
 
 .column3 {
     width: 62%;
-    background-color: rgba(184,15,29,0.4);
+    background-color: rgba(184, 15, 29, 0.4);
 }
 
 
