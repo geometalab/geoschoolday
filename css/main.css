@@ -147,6 +147,21 @@ hr {
     background-color: #ACACAD;
 }
 
+.nameimage {
+    width: 100%;
+}
+
+.nameimageicon {
+    height: 100%;
+    color: black;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.nameimage img:hover{
+    opacity: 0.6;
+    color: black;
+}
 
 /* table */
 
