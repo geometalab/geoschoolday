@@ -116,7 +116,42 @@ hr {
     height: 400px;
 }
 
+/* Team */
 
+.teambox {
+    display: table;
+    max-width: 940px;
+}
+
+.team {
+    display: table-cell;
+    border: 1px solid white;
+    float: left;
+    min-width: 182px;
+    max-width: 182px;
+    margin-bottom: 40px;
+}
+
+.team h2 {
+    margin: 0;
+}
+
+.nameinfo {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    background: #acacad;
+}
+
+.nameimage {
+    width: 100%;
+}
+
+.nameimage img {
+    width: 100%;
+}
 /* table */
 
 #programmtable {
