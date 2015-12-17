@@ -105,6 +105,7 @@ hr {
 }
 
 .embed-container {
+    position: relative;
     padding-bottom: 44%;
     height: 0;
 }
@@ -112,6 +113,7 @@ hr {
 .embed-container iframe,
 .embed-container object,
 .embed-container iframe {
+    position: relative;
     max-width: 940px;
     height: 400px;
 }
@@ -125,6 +127,7 @@ hr {
     position: relative;
 }
 
+#linkmap,
 #linkarticle {
     position: absolute;
     bottom: 0;
@@ -138,6 +141,15 @@ hr {
     background-color: rgba(184, 15, 29, 0.6);
 }
 
+#linkmap {
+    height: 50px;
+    line-height: 50px;
+    width: 50px;
+    top: 0;
+    font-size: 28px;
+}
+
+#linkmap:hover,
 #linkarticle:hover {
     background-color: rgba(184, 15, 29, 0.9);
 }
