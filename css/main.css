@@ -18,12 +18,12 @@ h1 {
 }
 
 h2 {
-    height: 25px;
-    line-height: 25px;
+    height: 26px;
+    line-height: 26px;
     background-color: #b80f1d;
     color: white;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     margin: 30px 0;
 }
 
@@ -138,6 +138,10 @@ hr {
     background-color: rgba(184, 15, 29, 0.6);
 }
 
+#linkarticle:hover {
+    background-color: rgba(184, 15, 29, 0.9);
+}
+
 
 /* Team */
 
@@ -151,17 +155,10 @@ hr {
     width: 100%;
 }
 
-.nameimageicon {
-    height: 100%;
-    color: black;
-    text-align: center;
-    vertical-align: middle;
-}
-
 .nameimage img:hover{
     opacity: 0.6;
-    color: black;
 }
+
 
 /* table */
 
@@ -200,6 +197,29 @@ hr {
     background-color: rgba(184, 15, 29, 0.4);
 }
 
+.impressioniconbox {
+    display: table;
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    padding: 5px 50px;
+}
+
+.impressiontext {
+    display: table-cell;
+    text-align: center;
+    font-size: 18px;
+    width: 50%;
+    color: black;
+    background-color: rgba(184, 15, 29, 0.4);
+    border: 1px solid #b80f1d;
+}
+
+.impressiontext:hover {
+    background-color: #b80f1d;
+    color: white;
+}
+
 
 /* heading 1 */
 
@@ -212,6 +232,7 @@ hr {
 
 .columnbox h2 {
     margin: 0;
+    font-size: 14px;
 }
 
 .headerImageBox {
