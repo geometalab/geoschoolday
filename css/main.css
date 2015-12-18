@@ -71,6 +71,8 @@ hr {
 
 #content.container #registrationform {
     padding: 0;
+    max-width: 940px;
+    overflow: hidden;
 }
 
 .footerBox {
@@ -85,7 +87,7 @@ hr {
 }
 
 .registration {
-    padding: 30px 105px 0 105px;
+    padding: 30px 8%;
 }
 
 .registration a {
@@ -107,7 +109,7 @@ hr {
 .embed-container {
     position: relative;
     padding-bottom: 44%;
-    height: 0;
+    height: 400px;
 }
 
 .embed-container iframe,
@@ -253,7 +255,8 @@ hr {
 /* heading 2 */
 
 .columnbox h2 {
-    margin: 0;
+    margin-top: 30px;
+    margin-bottom: 0;
     font-size: 14px;
 }
 
@@ -283,7 +286,7 @@ img {
 }
 
 .row {
-    margin-top: 30px;
+    margin: 0;
 }
 
 
