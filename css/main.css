@@ -123,6 +123,10 @@ hr {
     max-width: 910px;
 }
 
+.imagecontainer img {
+    width: 100%;
+}
+
 .imagecontainer {
     position: relative;
 }
@@ -211,10 +215,10 @@ hr {
 
 .impressioniconbox {
     display: table;
-    width: 100%;
+    max-width: 940px;
     height: 40px;
     line-height: 40px;
-    padding: 5px 50px;
+    padding: 5px 0;
 }
 
 .impressiontext {
