@@ -224,6 +224,7 @@ hr {
 .impressiontext {
     display: inline-block;
     font-size: 18px;
+    text-align: center;
     width: 100%;
     color: black;
     background-color: rgba(184, 15, 29, 0.4);
