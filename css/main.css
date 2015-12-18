@@ -214,18 +214,17 @@ hr {
 }
 
 .impressioniconbox {
-    display: table;
+    display: block;
     max-width: 940px;
     height: 40px;
     line-height: 40px;
-    padding: 5px 0;
+    margin: 20px 0;
 }
 
 .impressiontext {
-    display: table-cell;
-    text-align: center;
+    display: inline-block;
     font-size: 18px;
-    width: 50%;
+    width: 100%;
     color: black;
     background-color: rgba(184, 15, 29, 0.4);
     border: 1px solid #b80f1d;
