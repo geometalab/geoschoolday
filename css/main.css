@@ -286,34 +286,23 @@ img {
 /* Footer */
 
 .footer {
-    display: table;
+    display: block;
     width: 100%;
+    text-align: center;
 }
 
 .logoLinkBox {
-    display: table-cell;
-    height: 50px;
+    display: inline-block;
+    padding: 15px 30px;
 }
 
 .logoLinkBox img {
-    width: inherit;
     height: 50px;
-}
-
-#powerby,
-#hsr,
-#esri {
-    width: 30%;
-    text-align: right;
 }
 
 #powerby {
     font-size: 20px;
     font-style: oblique;
-}
-
-#sogi {
-    text-align: left;
 }
 
 
