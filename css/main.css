@@ -229,11 +229,11 @@ img {
 .logoLinkBox {
     display: inline-block;
     padding: 15px 30px;
-    height: 40px;
+    height: 50px;
 }
 
 .logoLinkBox img {
-    height: 40px;
+    height: 50px;
 }
 
 #powerby {
