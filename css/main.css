@@ -130,6 +130,11 @@ img {
 
 /* team.html */
 
+.teambox {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
 .nameinfo {
     padding: 5px;
     color: white;
