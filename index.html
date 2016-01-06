@@ -26,6 +26,9 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fonts/style.css">
+
+    <link href="js/slider/slider.css" rel="stylesheet" type="text/css" />
+    <script src="js/slider/slider.js" type="text/javascript"></script>
 </head>
 
 <body>
@@ -62,15 +65,27 @@
 
         <div id="geosummit" class="toplogoLinkBox">
             <span class="logoLink">
-                    <a href="http://geosummit.ch"><img src="image/logo/header-logo-d.png" alt="GEOSUMMIT" /> </a>
-                 </span>
-        </div>
-        <h4>GEOSchool Day 2016 :-)</h4>
-        <h5>8./9.Juni, Bern</h5> Der Grossevent für Schweizer Schulen im Rahmen des GEOSummit 2016 - der alle zwei Jahre stattfindenden Messe der Schweizer GEO-Branche.
-        <div class="slideImageBox">
-            <span class="slideImage">
-                <img src="image/title/gsd2014.jpg" alt="gsd2014"/>
+                <a href="http://geosummit.ch"><img src="image/logo/header-logo-d.png" alt="GEOSUMMIT" /> </a>
             </span>
+        </div>
+        <h1>GEOSchool Day 2016 :-)</h1>
+        <p>Der Grossevent für Schweizer Schulen im Rahmen des GEOSummit 2016.der alle zwei Jahre stattfindenden Messe der Schweizer GEO-Branche.</p>
+        <br>
+        <div id="sliderFrame">
+            <div id="slider">
+                <img src="image/slider/slide1.jpg" />
+                <img src="image/slider/slide2.jpg" />
+                <img src="image/slider/slide3.jpg" />
+                <img src="image/slider/slide4.jpg" />
+                <img src="image/slider/slide5.jpg" />
+                <img src="image/slider/slide6.jpg" />
+                <img src="image/slider/slide7.jpg" />
+                <img src="image/slider/slide8.jpg" />
+            </div>
+            <div class="group1-Wrapper">
+                <a onclick="imageSlider.previous()" class="icon-previous2"></a>
+                <a onclick="imageSlider.next()" class="icon-next2"></a>
+            </div>
         </div>
 
         <hr>
