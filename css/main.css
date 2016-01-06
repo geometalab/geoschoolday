@@ -138,6 +138,13 @@ img {
 
 .nameimage {
     width: 100%;
+    height: 150px;
+    overflow: hidden;
+}
+
+.nameimage img {
+    height: 150px;
+    margin: 0 -2px 0 0;
 }
 
 .nameimage img:hover {
