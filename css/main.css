@@ -75,6 +75,11 @@ hr {
     margin-left: auto;
 }
 
+@media only screen and (min-width: 768px) {
+    nav .container {
+        width: 100%;
+    }
+}
 #content.container {
     background-color: white;
     padding: 60px 15px 30px 15px;
