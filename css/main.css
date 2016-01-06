@@ -130,11 +130,23 @@ img {
 
 /* team.html */
 
+.row {
+    display: table;
+    width: 100%;
+}
 .teambox {
-    max-width: 60%;
+    display: table-cell;
+    width: 20%;
+    float: left;
+    padding: 0 15px;
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 800px) {
+    .teambox {
+        width: 144px;
+    }
+}
 .nameinfo {
     padding: 5px;
     color: white;
@@ -259,14 +271,7 @@ img {
     height: 40px;
 }
 
-.sogilogoLinkBox {
-    display: inline-block;
-    padding: 15px 30px;
-    height: 40px;
-    float: left;
-}
-
-.sogilogoLinkBox img {
+#sogi img {
     height: 70px;
 }
 

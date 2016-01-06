@@ -5,6 +5,12 @@
     box-sizing: content-box;
 }
 
+@media only screen and (max-width: 1600px) {
+    #sliderFrame {
+        display: none;
+    }
+}
+
 
 /*slider frame*/
 
