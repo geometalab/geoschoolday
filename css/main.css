@@ -80,6 +80,7 @@ hr {
         width: 100%;
     }
 }
+
 #content.container {
     background-color: white;
     padding: 60px 15px 30px 15px;
@@ -139,6 +140,7 @@ img {
     display: table;
     width: 100%;
 }
+
 .teambox {
     display: table-cell;
     width: 20%;
@@ -152,6 +154,7 @@ img {
         width: 144px;
     }
 }
+
 .nameinfo {
     padding: 5px;
     color: white;
@@ -204,6 +207,45 @@ img {
 
 
 /* programm.html */
+
+#programmangebot {
+    display: table;
+}
+
+.primary,
+.secondary {
+    display: table-cell;
+    float: left;
+}
+
+@media only screen and (max-width: 800px) {
+    #programmangebot {
+        display: block;
+    }
+    .primary,
+    .secondary {
+        display: inline-block;
+        width: 100% !important;
+        float: none;
+    }
+    .secondary {
+        text-align: center;
+        height: 350px !important;   
+    }
+}
+
+.primary {
+    width: 65%;
+}
+
+.secondary {
+    width: 35%;
+    height: 739px;
+}
+
+#twitter-widget-0 {
+    height: inherit !important;
+}
 
 .embed-container {
     position: relative;
