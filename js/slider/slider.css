@@ -5,7 +5,7 @@
     box-sizing: content-box;
 }
 
-@media only screen and (max-width: 1600px) {
+@media only screen and (max-width: 775px) {
     #sliderFrame {
         display: none;
     }
@@ -21,8 +21,7 @@
 
 #slider,
 #slider div.sliderInner {
-    max-width: 900px;
-    width: 900px;
+    width: 100%;
     height: 350px;
     /* Must be the same size as the slider images */
 }
@@ -116,11 +115,10 @@
 
 .group1-Wrapper {
     position: absolute;
-    z-index: 20;
     top: 0;
-    margin-left: 50%;
-    /* position it in the middle of #sliderFrame */
-    width: 1px;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
 }
 
 a.icon-previous2,
@@ -130,18 +128,16 @@ a.icon-next2 {
     display: block;
     cursor: pointer;
     position: absolute;
-    top: 0;
+    top: 150px;
     user-select: none;
 }
 
 a.icon-previous2 {
-    top: 160px;
-    left: -461px;
+    left: -11px;
 }
 
 a.icon-next2 {
-    top: 160px;
-    left: 417px;
+    right: -11px;
 }
 
 a.icon-previous2:hover,
