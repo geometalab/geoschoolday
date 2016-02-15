@@ -179,6 +179,22 @@ img {
     font-size: 14px;
 }
 
+.teamlinkicon {
+    font-size: 130px;
+    color: transparent;
+    position: absolute;
+    top: 68px;
+    left: 17px;
+}
+
+.teamlinkicon:hover {
+    color: rgba(20, 20, 20, 0.3);
+}
+
+.white.teamlinkicon:hover {
+    color: rgba(200, 200, 200, 0.5);
+}
+
 
 /* registration.html */
 
