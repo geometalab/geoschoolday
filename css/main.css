@@ -37,8 +37,10 @@ h3 {
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 15px;
     padding-bottom: 5px;
+    margin: 0;
+    color: #b80f1d;
     font-weight: bold;
 }
 
@@ -258,6 +260,10 @@ img {
 
 #twitter-widget-0 {
     height: inherit !important;
+}
+
+img.programmablauflogo {
+    height: 50px;
 }
 
 .embed-container {
