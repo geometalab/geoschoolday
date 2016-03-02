@@ -264,6 +264,37 @@ img {
 
 img.programmablauflogo {
     height: 50px;
+    width: 100%;
+}
+
+.ablaufbox {
+    display: table;
+    width: 100%;
+}
+
+.ablauf,
+.ablauf1,
+.ablaufzeit {
+    display: table-cell;
+    width: 30%;
+}
+
+.programmlegende .ablauf {
+    padding-left: 25px;
+}
+
+.programmlegende {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.ablauf1 {
+    width: 90%;
+    padding-left: 25px;
+}
+
+.ablaufzeit {
+    width: 10%;
 }
 
 .embed-container {
