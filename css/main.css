@@ -38,7 +38,6 @@ h3 {
 
 h4 {
     font-size: 15px;
-    padding-bottom: 5px;
     margin: 0;
     color: #b80f1d;
     font-weight: bold;
@@ -60,6 +59,11 @@ a,
 a:hover {
     color: white;
     text-decoration: none;
+}
+
+p a,
+p a:hover {
+    color: #b80f1d;
 }
 
 hr {
@@ -263,7 +267,6 @@ img {
 }
 
 img.programmablauflogo {
-    height: 50px;
     width: 100%;
 }
 
@@ -295,6 +298,10 @@ img.programmablauflogo {
 
 .ablaufzeit {
     width: 10%;
+}
+
+.ablauf ul {
+    list-style-type: none;
 }
 
 .embed-container {
