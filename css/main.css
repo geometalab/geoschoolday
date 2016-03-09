@@ -38,7 +38,7 @@ h3 {
 
 h4 {
     font-size: 15px;
-    margin: 0;
+    margin-bottom: 10px;
     color: #b80f1d;
     font-weight: bold;
 }
@@ -275,6 +275,10 @@ img.programmablauflogo {
     width: 100%;
 }
 
+.ablaufbox p {
+    text-indent: 0px;
+}
+
 .ablauf,
 .ablauf1,
 .ablaufzeit {
@@ -282,18 +286,17 @@ img.programmablauflogo {
     width: 30%;
 }
 
-.programmlegende .ablauf {
-    padding-left: 25px;
+.ablauf,
+.ablauf1 {
+    padding-left: 10px;
 }
 
 .programmlegende {
     font-weight: bold;
-    margin-bottom: 15px;
 }
 
 .ablauf1 {
     width: 90%;
-    padding-left: 25px;
 }
 
 .ablaufzeit {
@@ -302,6 +305,7 @@ img.programmablauflogo {
 
 .ablauf ul {
     list-style-type: none;
+    padding: 0px;
 }
 
 .embed-container {
