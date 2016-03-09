@@ -74,6 +74,22 @@ hr {
 
 /* Body */
 
+#anmeldeschluss {
+    position: fixed;
+    top: 108px;
+    right: -7px;
+    padding: 0 7px 0 7px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #b80f1d;
+    height: 25px;
+    line-height: 25px;
+    transform: rotate(30deg);
+    z-index: 9999;
+}
+
+
 .container {
     display: block;
     max-width: 940px;
