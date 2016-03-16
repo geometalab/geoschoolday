@@ -283,7 +283,7 @@ img {
 }
 
 img.programmablauflogo {
-    width: 100%;
+    width: 70%;
 }
 
 .ablaufbox {
@@ -305,6 +305,11 @@ img.programmablauflogo {
 .ablauf,
 .ablauf1 {
     padding-left: 10px;
+}
+
+.ablauf li {
+    border: 1px solid #b80f1d;
+    padding: 5px;
 }
 
 .programmlegende {
