@@ -308,7 +308,7 @@ img.programmablauflogo {
 }
 
 .ablauf li {
-    border: 1px solid #b80f1d;
+    border-bottom: 2px solid #b80f1d;
     padding: 5px;
 }
 
