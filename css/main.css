@@ -89,7 +89,6 @@ hr {
     z-index: 9999;
 }
 
-
 .container {
     display: block;
     max-width: 940px;
@@ -155,9 +154,10 @@ img {
     margin: 0;
 }
 
-.memberlist li  {
+.memberlist li {
     font-size: 16px;
 }
+
 
 /* team.html */
 
@@ -168,9 +168,9 @@ img {
 
 .teambox {
     display: table-cell;
-    width: 163.8px;
-    float: left;
-    padding: 0 15px;
+    width: 233.8px;
+    float: none;
+    padding: 0 35px;
     margin: 0 auto;
 }
 
@@ -265,7 +265,7 @@ img {
     }
     .secondary {
         text-align: center;
-        height: 350px !important;   
+        height: 350px !important;
     }
 }
 
@@ -463,6 +463,7 @@ ol {
     border-left: 3px solid rgba(184, 15, 29, 0.9);
     padding-left: 30px;
 }
+
 
 /* Navigationsbar */
 
