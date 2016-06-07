@@ -89,6 +89,12 @@ hr {
     z-index: 9999;
 }
 
+@media all and (max-width: 800px){
+    #anmeldeschluss {
+        display: none;
+    }
+}
+
 .container {
     display: block;
     max-width: 940px;

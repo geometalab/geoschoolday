@@ -1,0 +1,32 @@
+body {
+    font-family: "Arial", sans-serif;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: #b80f1d;
+    color: white;
+    font-size: 15px;
+}
+
+#title h1 {
+    background-color: #b80f1d;
+    color: white;
+}
+
+#title img {
+    width: 70px;
+    height: 70px;
+}
+
+#sek h2{
+    display: inline;
+    vertical-align: 100%;
+}
+
+#bar {
+    width: 100%;
+    height: 40px;
+    background-color: #b80f1d;
+}
