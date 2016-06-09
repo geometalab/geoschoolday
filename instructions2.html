@@ -23,13 +23,13 @@
         <h3>Auftrag:</h3>
         <p>Findet in der Schweiz einen Standort mit möglichst grosser Aussichtsfläche im Umkreis von 15 Kilometer.</p>
         <ol>
-            <li>Geht auf die folgende Seite: <a></a></li>
+            <li>Geht auf die folgende Seite: <a href="http://tests.christiansailer.ch/games/vista/" target="_blank">Mission 1</a></li>
             <li>Meldet euch mit den gegebenen Login-Daten an.</li>
             <li>Startet euren Durchlauf. Ihr habt 300 Sekunden Zeit. Klickt auf die Karte um einen Punkt festzulegen. Der Punkt mit der grössten Fläche zählt.</li>
-            <li>Seht euch anschliesend in einer Karte an, wie gut ihr abgescnitten habt.</li>
+            <li>Seht euch anschliesend in einer Karte an, wie gut ihr abgeschnitten habt.</li>
         </ol>
         <h3>Punkteverteilung:</h3>
-        <p>Fläche in Quadratkilometer gibt Punkte</p>
+        <p>Punkt = Quadratkilometer. (Range: 1 - 400)</p>
         <button id="button2" onclick="level2()">Mission 2</button>
     </div>
     <div id="level2">
@@ -42,7 +42,7 @@
             <li>Klickt auf das Häkchen oben links.</li>
         </ol>
         <h3>Punkteverteilung:</h3>
-        <p>Attributmachting gibt Punkte; 0,1,2,3</p>
+        <p>Punkt = 50 * Anzahl korrekte Zuordnung. (Range 0 - 150)</p>
         <button id="button3" onclick="level3()">Mission 3</button>
     </div>
     <div id="level3">
@@ -55,7 +55,7 @@
         </ol>
         <p><b>Maximal 1 Vegetation pro Quadratmeter!</b></p>
         <h3>Punkteverteilung:</h3>
-        <p>Pro Pflanzenquartameter ein Punkt.  (Range 10 - 50) </p>
+        <p>Punkt = Anzahl korrekte Beobachtungen (Range 1 - n)</p>
         <button id="button4" onclick="level4()">Mission 4</button>
     </div>
     <div id="level4">
@@ -67,19 +67,53 @@
             <li>Klickt auf das Häkchen oben links.</li>
         </ol>
         <h3>Punkteverteilung:</h3>
-        <p>Pro WaerableUser ein Punkt.  (Range 10 - 50)</p>
+        <p>Punkt = Anzahl korrekte Beobachtungen (Range 1 - n)</p>
         <button id="button5" onclick="level5()">Mission 5</button>
     </div>
     <div id="level5">
         <h3>Auftrag:</h3>
         <p>SchweizerKreuz-Mapping: Mit 5 GPS-Koordinate von Tractalis-Trackern ein gleichseitiges, rechtwinkliges CH-Kreuz bauen. Bewertung nach 10 Minuten. Nutzt für das überprüfen der Form das Liveinfopanel. Dieses wird von der Jury nach Gleichseitigkeit, Rechtwinkligkeit und Grösse bewertet.</p>
         <h3>Punkteverteilung:</h3>
-        <p>Punktwertung qualitativ durch Jury: schlecht: 1 mittel: 2 gut: 3</p>
+        <p>Punktwertung qualitativ durch Jury: (Range 0 - 150)</p>
         <button id="button6" onclick="level6()">Mission 6</button>
     </div>
     <div id="level6">
         <h3>Auftrag:</h3>
-        <p></p>
+        <ol>
+            <li>
+                <p>Welches geografische Phänomen steckt hinter den Orten?</p>
+            </li>
+            <li>
+                <p>Welcher dieser Orte ist ein geographischer Rekord?</p>
+                <p>Um die Fragen zu lösen, geh auf <a href="https://map.what3words.com" target="_blank">https://map.what3words.com</a>, selektiere die Esri Map und erforsche den Planet durch das Eintippen der folgenden 8 w3w-Codes:</p>
+                <table id="table">
+                    <tr>
+                        <td>griffbrett.schwimmbecken.verkörpern</td>
+                    </tr>
+                    <tr>
+                        <td>kräften.erarbeitung.entfliehen</td>
+                    </tr>
+                    <tr>
+                        <td>petitionen.inselkette.waldgebiete</td>
+                    </tr>
+                    <tr>
+                        <td>baurat.vorbereitet.ältestes</td>
+                    </tr>
+                    <tr>
+                        <td>zugabe.bildhauer.gleichnis</td>
+                    </tr>
+                    <tr>
+                        <td>nachtwächter.erbgüter.ferse</td>
+                    </tr>
+                    <tr>
+                        <td>biotop.koffer.dringende</td>
+                    </tr>
+                    <tr>
+                        <td>selbständig.präsidium.präparaten</td>
+                    </tr>
+                </table>
+            </li>
+        </ol>
         <h3>Punkteverteilung:</h3>
         <p></p>
         <button id="bar" disabled></button>
