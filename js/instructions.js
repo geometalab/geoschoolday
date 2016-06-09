@@ -5,7 +5,6 @@ function pageReady(){
     document.getElementById("level4").style.visibility = 'hidden';
     document.getElementById("level5").style.visibility = 'hidden';
     document.getElementById("level6").style.visibility = 'hidden';
-    document.getElementById("level7").style.visibility = 'hidden';
 }
 
 function level1(){
@@ -40,5 +39,12 @@ function level5(){
     document.getElementById("level5").style.visibility = 'visible';
     var button = document.getElementById("button5");
     button.textContent = "Mission 5";
+    button.disabled = true;
+}
+
+function level6(){
+    document.getElementById("level6").style.visibility = 'visible';
+    var button = document.getElementById("button6");
+    button.textContent = "Mission 6";
     button.disabled = true;
 }
