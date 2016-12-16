@@ -89,7 +89,7 @@ hr {
     z-index: 9999;
 }
 
-@media all and (max-width: 800px){
+@media all and (max-width: 800px) {
     #anmeldeschluss {
         display: none;
     }
@@ -174,7 +174,7 @@ img {
 
 .teambox {
     display: table-cell;
-    width: 233.8px;
+    width: 213.8px;
     float: none;
     padding: 0 35px;
     margin: 0 auto;
