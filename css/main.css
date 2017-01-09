@@ -103,9 +103,9 @@ hr {
     padding: 10px 10px 10px 10px;
     z-index: 9999;
     display: block;
-    width: 300px;
+    width: 200px;
     height: 400px;
-    background-color: white;
+    background-color: #fff;
 }
 
 @media all and (max-width: 1300px) {
