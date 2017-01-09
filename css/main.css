@@ -100,8 +100,12 @@ hr {
     position: fixed;
     top: 70px;
     left: 20px;
-    padding: 0 7px 0 7px;
+    padding: 10px 10px 10px 10px;
     z-index: 9999;
+    display: block;
+    width: 300px;
+    height: 400px;
+    background-color: white;
 }
 
 @media all and (max-width: 1300px) {
