@@ -15,6 +15,7 @@ body {
 h1 {
     font-size: 30px;
     padding-bottom: 30px;
+    padding-left: 10px;
     font-weight: bold;
 }
 
@@ -26,6 +27,82 @@ h2 {
     text-align: center;
     font-size: 16px;
     margin: 30px 0;
+}
+
+
+.navbar-brand {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.navbar-inverse {
+    background-image: -webkit-linear-gradient(top, #5e5e5e 0, #5e5e5e 100%);
+    border-color: #818386;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-text {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-toggle {
+    background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background-color: #818386;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-image: -webkit-linear-gradient(top, #ecf0f1 0, #ecf0f1 100%);
+}
+
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+    border-color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-link {
+    color: #ecf0f1;
+}
+
+.navbar-inverse .navbar-link:hover {
+    background-color: #818386;
+    color: #ffffff;
 }
 
 h3 {
@@ -49,11 +126,23 @@ h5 {
     padding-bottom: 5px;
 }
 
+h6 {
+    height: 26px;
+    line-height: 26px;
+    background-color: #b80f1d;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    margin: 20px 0;
+    width: 80px;
+}
+
 p {
     font-size: 12px;
     color: black;
     line-height: 1.5em;
     text-indent: 25px;
+    width: 100%;
 }
 
 a,
@@ -129,7 +218,7 @@ hr {
 
 #content.container {
     background-color: white;
-    padding: 60px 15px 30px 15px;
+    padding: 60px 15px 30px 5px;
 }
 
 #content.container #registrationform {
@@ -186,10 +275,6 @@ img {
 
 /* team.html */
 
-.row {
-    display: table;
-    width: 100%;
-}
 
 .teambox {
     display: table-cell;
@@ -200,20 +285,24 @@ img {
 }
 
 .nameinfo {
+    width: 80px;
     padding: 5px;
     color: white;
+    font-size: 10px;
     background-color: #ACACAD;
+    overflow: hidden;
+    margin-top: -50px;
 }
 
 .nameimage {
-    width: 100%;
+    width: 80px;
     height: 150px;
     overflow: hidden;
 }
 
 .nameimage img {
-    height: 150px;
-    margin: 0 -2px 0 0;
+    height: 100px;
+    margin: 0 0 0 0;
 }
 
 .nameimage img:hover {
@@ -221,7 +310,7 @@ img {
 }
 
 .teambox h2 {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 0;
     font-size: 14px;
 }
@@ -327,6 +416,10 @@ img.programmablauflogo {
     width: 30%;
 }
 
+.ablaufzeit123 {
+    margin-bottom: 1px;
+}
+
 .ablauf,
 .ablauf1 {
     padding-left: 10px;
@@ -402,9 +495,9 @@ img.programmablauflogo {
     display: block;
     line-height: 62px;
     max-width: 940px;
-    padding: 30px 15px;
+    padding: 30px 0px;
     margin-right: auto;
-    margin-left: auto;
+    margin-left: -5px;
     margin-top: 50px;
     background-color: white;
 }
@@ -427,6 +520,7 @@ img.programmablauflogo {
 
 #sogi img {
     height: 70px;
+    margin-top: -25px;
 }
 
 .toplogoLinkBox {
@@ -498,10 +592,8 @@ ol {
 }
 
 
-/* Navigationsbar */
-
 .navbar-form {
-    margin: 0;
+    margin: 5px;
     padding: 0;
     border: 0;
 }
@@ -581,18 +673,3 @@ ol {
     color: #ffffff;
 }
 
-@media (max-width: 767px) {
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-        color: #ecf0f1;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-        color: #ffffff;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
-    .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-        color: #ffffff;
-        background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
-    }
-}
