@@ -395,7 +395,17 @@ img {
 }
 
 img.programmablauflogo {
-    height: 150px;
+    height: auto;
+    width: auto;
+    max-width: 270px;
+    max-height: 180px;
+}
+
+img.programmablauflogo2 {
+    height: auto;
+    width: auto;
+    max-width: 100px;
+    max-height: 100px;
 }
 
 .ablaufbox {
