@@ -137,11 +137,15 @@ h6 {
 }
 
 p {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
-    line-height: 1.5em;
-    text-indent: 25px;
+    line-height: 1.8em;
+    text-indent: 0px;
     width: 100%;
+}
+
+p.ateliertext {
+    height: 170px;
 }
 
 a,
@@ -404,7 +408,7 @@ img.programmablauflogo {
 img.programmablauflogo2 {
     height: auto;
     width: auto;
-    max-width: 100px;
+    max-width: 130px;
     max-height: 100px;
     /**/
 }
@@ -444,11 +448,11 @@ img.programmablauflogo2 {
 }
 
 .ablauf1 {
-    width: 90%;
+    width: 85%;
 }
 
 .ablaufzeit {
-    width: 10%;
+    width: 15%;
 }
 
 .ablauf ul {
