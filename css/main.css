@@ -150,13 +150,13 @@ p.ateliertext {
 
 a,
 a:hover {
-    color: #190506;
+    color: darkgrey;
     text-decoration: none;
 }
 
 p a,
 p a:hover {
-    color: #b80f1d;
+    color: darkgrey;
 }
 
 hr {
