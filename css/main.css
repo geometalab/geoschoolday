@@ -196,7 +196,7 @@ hr {
     z-index: 9999;
     display: block;
     width: 200px;
-    height: 500px;
+    height: 650px;
     background-color: #fff;
 }
 
@@ -348,12 +348,12 @@ img {
     height: 50px;
     line-height: 50px;
     text-align: center;
-    background-color: #b80f1d;
+    background-color: forestgreen;
     font-size: 14px;
 }
 
 .registrationbox:hover {
-    background-color: #9E0D19;
+    background-color: greenyellow;
 }
 
 
