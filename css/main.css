@@ -190,7 +190,7 @@ hr {
 
 #maineventlogo {
     position: fixed;
-    top: 70px;
+    top: 250px;
     left: 20px;
     padding: 10px 10px 10px 10px;
     z-index: 9999;
@@ -533,7 +533,7 @@ img.programmablauflogo2 {
 
 #sogi img {
     height: 70px;
-    margin-top: -25px;
+    margin-top: 0px;
 }
 
 .toplogoLinkBox {

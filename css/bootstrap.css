@@ -427,7 +427,7 @@ th {
 .glyphicon-tags:before {
   content: "\e042";
 }
-.glyphicon-book:before {
+.glyph-book:before {
   content: "\e043";
 }
 .glyphicon-bookmark:before {
@@ -3844,7 +3844,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 @media (min-width: 768px) {
   .navbar-header {
-    float: left;
+   float: left;
   }
 }
 .navbar-collapse {
