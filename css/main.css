@@ -224,6 +224,10 @@ hr {
     padding: 60px 15px 30px 5px;
 }
 
+#content1.container {
+    padding: 60px 15px 30px 5px;
+}
+
 #content.container #registrationform {
     padding: 0;
     max-width: 940px;
@@ -513,6 +517,16 @@ img.programmablauflogo2 {
     margin-left: -5px;
     margin-top: 50px;
     background-color: white;
+}
+
+.footerBox1 {
+    display: block;
+    line-height: 62px;
+    max-width: 940px;
+    padding: 30px 0px;
+    padding-right: 70px;
+    margin-left: -5px;
+    margin-top: 50px;
 }
 
 .footer {
