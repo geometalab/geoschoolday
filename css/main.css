@@ -200,7 +200,7 @@ hr {
     background-color: #fff;
 }
 
-@media all and (max-width: 1300px) {
+@media all and (max-width: 1400px) {
     #maineventlogo {
         display: none;
     }
