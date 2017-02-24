@@ -13,10 +13,20 @@ body {
 }
 
 h1 {
+    text-align: center;
     font-size: 30px;
     padding-bottom: 30px;
     padding-left: 10px;
     font-weight: bold;
+}
+
+.h1_team {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 40px;
 }
 
 h2 {
@@ -126,14 +136,14 @@ h5 {
 }
 
 h6 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     height: 26px;
     line-height: 26px;
-    background-color: #b80f1d;
-    color: white;
+    color: black;
     text-align: center;
     font-size: 10px;
-    margin: 20px 0;
-    width: 80px;
 }
 
 p {
@@ -142,6 +152,13 @@ p {
     line-height: 1.8em;
     text-indent: 0px;
     width: 100%;
+}
+
+.twittercard {
+    width: auto;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 p.ateliertext {
@@ -162,6 +179,23 @@ p a:hover {
 hr {
     margin: 30px 0;
     border-bottom: 1px solid #ebebeb;
+}
+
+.hr_team {
+    margin: 10px 0;
+    border-bottom: 1px solid #ebebeb;
+}
+
+@media all and (max-width: 991px) {
+    .hr_teammember_lg {
+        display: none;
+    }
+}
+
+@media all and (min-width: 992px) {
+    .hr_teammember_sm {
+        display: none;
+    }
 }
 
 
@@ -267,6 +301,14 @@ img {
     width: inherit;
 }
 
+.teamimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 60px;
+    width: auto;
+}
+
 .col-md-4 {
     padding-bottom: 30px;
 }
@@ -291,24 +333,35 @@ img {
 }
 
 .nameinfo {
-    width: 80px;
+    padding-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
     padding: 5px;
-    color: white;
-    font-size: 10px;
-    background-color: #ACACAD;
+    color: darkgrey;
+    text-align: center;
+    font-size: 18px;
     overflow: hidden;
     margin-top: -50px;
 }
 
+.nametag {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
 .nameimage {
-    width: 80px;
-    height: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     overflow: hidden;
 }
 
 .nameimage img {
-    height: 100px;
-    margin: 0 0 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
 }
 
 .nameimage img:hover {
