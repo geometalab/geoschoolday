@@ -12,3 +12,7 @@
 
 ga('create', 'UA-72136717-1', 'auto');
 ga('send', 'pageview');
+
+
+var d = new Date();
+document.getElementById("demo").innerHTML = d.getDate() + "/" + (d.getMonth() + 1) + "/" + d.getFullYear();
