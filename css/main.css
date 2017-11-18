@@ -27,6 +27,7 @@ h1 {
     padding-left: 10px;
     font-weight: bold;
     margin-top: 40px;
+    font-family: fantasy;
 }
 
 h2 {
@@ -167,13 +168,13 @@ p.ateliertext {
 
 a,
 a:hover {
-    color: #D8D8D8;
+    color: #b80f1d;
     text-decoration: none;
 }
 
 p a,
 p a:hover {
-    color: #D8D8D8;
+    color: #b80f1d;
 }
 
 hr {
@@ -294,7 +295,7 @@ hr {
 }
 
 .headerLinkBox:hover {
-    background: #58595B;
+    background: #b80f1d;
 }
 
 img {
@@ -678,17 +679,18 @@ ol {
 }
 
 .navbar-brand {
-    margin-left: 5px;
+    margin-left: 25px;
     margin-right: 5px;
+    font-family: fantasy;
 }
 
 .navbar-inverse {
-    background-image: -webkit-linear-gradient(top, #5e5e5e 0, #5e5e5e 100%);
+    background-image: -webkit-linear-gradient(top, #ebebeb 0, #ebebeb 100%);
     border-color: #818386;
 }
 
 .navbar-inverse .navbar-brand {
-    color: #ecf0f1;
+    color: #b80f1d;
 }
 
 .navbar-inverse .navbar-brand:hover,
