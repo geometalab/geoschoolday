@@ -8,7 +8,7 @@ body {
     line-height: 19px;
     color: #58595b;
     background: #ebebeb;
-    background-image: url(../image/Bern_BW100.png);
+    background-image: url(../image/Bern_BW1002.png);
     background-size: cover;
 }
 
@@ -256,7 +256,7 @@ hr {
 
 #content.container {
     background-color: white;
-    padding: 60px 15px 30px 5px;
+    padding: 10px 15px 30px 5px;
 }
 
 #content1.container {
