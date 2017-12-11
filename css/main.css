@@ -15,8 +15,8 @@ body {
 h1 {
     text-align: center;
     font-size: 30px;
-    padding-bottom: 30px;
-    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-left: 2px;
     font-weight: bold;
 }
 
@@ -624,7 +624,7 @@ img.programmablauflogo2 {
 }
 
 .inline > h1 {
-    display: inline-block;
+    float: none;
 }
 
 
