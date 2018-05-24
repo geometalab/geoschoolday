@@ -62,7 +62,36 @@
             </form>
         </div>
     </nav>
+    <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("June 6, 2018 09:30:00").getTime();
 
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+
+        // Get todays date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now an the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Output the result in an element with id="demo"
+        document.getElementById("anmeldeschluss").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
+
+        // If the count down is over, write some text 
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("anmeldeschluss").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+    </script>
 
     <div id="anmeldeschluss"><strong><p style="color: white;">Noch 10 Tage!</p></strong></div>
 
@@ -97,7 +126,7 @@
           
             </div>    
                                                                                                           
-            <div class="col-sm-4" style="height: 900px;">
+            <div class="col-sm-4" style="height: 990px;">
                   <h3>Keynotes</h3>
                 
                      
@@ -122,6 +151,8 @@
                 <h3>Location</h3>
                 <a href="http://egregis.maps.arcgis.com/apps/webappviewer3d/index.html?id=1a9b9006f3c148788afd72144115ef54" target="_blank"><img src="http://www.bernexpo.ch/Portaldata/22/Resources/dokumente/plaene/FG_Vogel-Perspektive_Areal_-Geb_ude1.jpg" height="206"></a>
                 <br>
+                <br>
+                <br>
                 <h3>Live Kommunikation </h3> 
                 <p>#geoschoolday</p>
                 <a href="https://www.instagram.com/geoschoolday/"><img src="image/program/insta.png" height="30"> geoschoolday</a> <br><br>
@@ -134,8 +165,8 @@
                 <br>                             
                                               
             </div>
-            <div class="col-sm-4" style="height: 900px;">
-                <!--<
+            <div class="col-sm-4" style="height: 990px;">
+                <!--
                 <h3>Registration 2018</h3> 
                 <ul>
                     <li>Free entry and food</li>
@@ -182,13 +213,17 @@
                 </ul>
                 <br>
                 <br>
+                <br>
+                <br>
+                <br>
+                <br>
                 <h3><a href="https://www.geosummit.ch/de/event/geosummit-2018.html" target="_blank"><img src="https://www.geosummit.ch/fileadmin/layout/images_layout/geosummit.svg" height="35px"> </a>
                 <br><br><a href="https://www.geosummit.ch/de/event/geosummit-2018.html" target="_blank"> Messe und Kongress </a> zum digitalen Lebensraum</h3>
                 
                   <br>
              
             </div>
-            <div class="col-sm-4" style="height: 900px;">
+            <div class="col-sm-4" style="height: 990px;">
                 
                 <h3>News #geoschoolday</h3>
                 <a class="twitter-timeline" href="https://twitter.com/hashtag/geoschoolday" data-widget-id="931904850551541762">#geoschoolday Tweets</a>
