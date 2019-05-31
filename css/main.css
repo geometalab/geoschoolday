@@ -131,13 +131,14 @@ hr {
     position: fixed;
     top: 120px;
     right: -7px;
-    padding: 0 7px 0 7px;
-    font-size: 24px;
+    text-align: center;   
+    padding: 2px 7px 2px 7px;
+    font-size: 22px;
     font-weight: bold;
     color: white;
-    background-color: #b80f1d;
+    background-color: #ED0E6A;
     border-radius: 15px;
-    height: 25px;
+    height: 55px;
     line-height: 25px;
     transform: rotate(30deg);
     z-index: 9999;
@@ -351,6 +352,7 @@ img {
 .secondary {
     display: table-cell;
     float: left;
+    padding: 15px;
 }
 
 @media only screen and (max-width: 800px) {
@@ -370,11 +372,11 @@ img {
 }
 
 .primary {
-    width: 65%;
+    width: 64%;
 }
 
 .secondary {
-    width: 35%;
+    width: 32%;
     height: 739px;
 }
 
