@@ -137,10 +137,10 @@ hr {
     font-weight: bold;
     color: white;
     background-color: #b80f1d;
-    border-radius: 15px;
-    height: 55px;
-    line-height: 25px;
-    transform: rotate(30deg);
+    border-radius: 75px;
+    height: 70px;
+    line-height: 30px;
+    transform: rotate(12deg);
     z-index: 9999;
 }
 
@@ -198,6 +198,33 @@ hr {
 
 
 /* index.html */
+
+.btn {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px; 
+    font-size: 12px; 
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background 1.3s ease;
+
+}
+.btn.left {
+    color: #000000;
+    background: #51A9FB;
+    text-align: left;
+}
+.btn.right {
+    color: #000000;
+    background: #00e600;
+    text-align: right;
+}
+.btn.center {
+    color: #ffe6f9;
+    background: #ff33cc;
+    text-align: center;
+    font-size: 20px;
+}
 
 .slideImage {
     width: 100%;
