@@ -211,12 +211,12 @@ hr {
 }
 .btn.left {
     color: #000000;
-    background: #51A9FB;
+    background: #e6e6ff;
     text-align: left;
 }
 .btn.right {
     color: #000000;
-    background: #00e600;
+    background: #ccffe6;
     text-align: right;
 }
 .btn.center {
