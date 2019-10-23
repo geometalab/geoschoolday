@@ -200,8 +200,7 @@ hr {
 /* index.html */
 
 .btn {
-    display: flex;
-    flex-wrap: wrap;
+   
     padding: 10px; 
     font-size: 12px; 
     border-radius: 15px;
@@ -209,21 +208,28 @@ hr {
     transition: background 1.3s ease;
 
 }
-.btn.left {
-    color: #000000;
-    background: #e6e6ff;
-    text-align: left;
+.chat {
+    border-radius: 15px; 
+   
+    font-size: 12px; 
+    border-radius: 15px;
+  
 }
-.btn.right {
-    color: #000000;
-    background: #ccffe6;
-    text-align: right;
+
+.chat.left {
+   color: #b80f1d;
+   background-color: #f0f0f5;
 }
-.btn.center {
+.chat.right {
+  color: #14141f;
+  background-color: #efeff5; 
+}
+.chat.center {
     color: #ffe6f9;
     background: #51A9FB;
     text-align: center;
     font-size: 20px;
+    padding: 20px;
 }
 
 .slideImage {
