@@ -7,7 +7,7 @@ body {
     font-size: 12px;
     line-height: 19px;
     color: #58595b;
-    background: #ebebeb;
+    background: #ffffff;
     background-image: url(../image/space-1565986_1280.jpg);
     background-size: cover;
 }
@@ -651,6 +651,9 @@ ol {
 .navbar-brand {
     margin-left: 25px;
     margin-right: 5px;
+    font-size: 35px;
+    padding-top: 20px;
+
     font-family: fantasy;
 }
 
@@ -699,6 +702,7 @@ ol {
 
 .navbar-inverse .navbar-toggle {
     background-image: -webkit-linear-gradient(top, #818386 0, #818386 100%);
+    padding-top: 2px;
 }
 
 .navbar-inverse .navbar-toggle:hover,
