@@ -37,12 +37,25 @@
 <body>
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-menu"></span>
-            </button>
-            <a class="navbar-brand" href="index.html">GEOSchool Day<br>... .. .  ...   ..  . ..</a>
-            <span style='float: right; font-size: 15px; padding: 5px; color: black; font-weight: 700;'><a href='https://www.instagram.com/geoschoolday/'><img src='image/program/insta.png' height='30'> </a><a href='https://twitter.com/geoschoolday'><img src='image/program/twitter.png' height='30'></a><br><br>#geoschoolday</span>
+            <div class="row">
+                <div class="col-sm-4"> 
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-menu"></span>                            
+                        </button>
+                    <span style="width:85px; margin-left: 5px;"><img src="image/allgemein/Logo_building_200.png"></span>
+                </div>
+                <div class="col-sm-4">                  
+                    <a class="navbar-brand" href="index.html">. : : GEOSchool Day : . : ..<br>... .. .  ...  . .. ..  ..  . .... . . . ... .. . ...</a>                   
+                </div>
+                <div class="col-sm-4">
+                    <span style='float: right; font-size: 15px; padding: 3px; color: #b80f1d; font-weight: 700;'><a href='https://www.instagram.com/geoschoolday/'><img src='image/program/insta.png' height='30'> </a><a href='https://twitter.com/geoschoolday'><img src='image/program/twitter.png' height='30'></a><br><br>#geoschoolday</span>
+                </div>
+            
+           
+            
+           
+            </div>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
             <form class="navbar-form navbar-right" role="form">
@@ -87,7 +100,7 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Output the result in an element with id="demo"
-        document.getElementById("anmeldeschluss").innerHTML = "<span style='font-size: 25px;'>Time:</span> <br>" + days + "d " + hours + "h "
+        document.getElementById("anmeldeschluss").innerHTML = "<span style='font-size: 25px;'>Countdown:</span> <br>" + days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
 
         // If the count down is over, write some text 

@@ -665,8 +665,8 @@ ol {
 }
 
 .navbar-inverse {
-    background-image: -webkit-linear-gradient(top, #ebebeb 0, #ebebeb 100%);
-    border-bottom: solid 5px #b80718;
+    background-image: -webkit-linear-gradient(top, #e6ebf2 90%, #335380 95%, #072452 100%);
+    border-bottom: solid 0px #b80718;
 }
 
 .navbar-inverse .navbar-brand {
